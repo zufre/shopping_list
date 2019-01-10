@@ -24,6 +24,6 @@ mongoose
 
 app.use("/api/items", items);
 
-const port = process.env.PORT || 5000;
+const port = process.env.PORT || 5003;
 
 app.listen(port, () => console.log(`Server started on Port ${port}`));
